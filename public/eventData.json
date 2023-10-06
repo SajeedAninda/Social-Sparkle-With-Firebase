@@ -1,0 +1,110 @@
+[
+    {
+        "id": 1,
+        "name": "Weddings",
+        "short_description": "Celebrate the union of two souls.",
+        "detailed_description": "Weddings are a joyous occasion where two people come together in love and commitment, surrounded by family and friends. This significant event marks the beginning of a new chapter in the couple's life, one filled with shared dreams, aspirations, and a promise to stand by each other through thick and thin. It is a day when love takes center stage, and every detail, from the selection of the perfect venue to the choice of flowers and decor, is meticulously planned to create a magical atmosphere.",
+        "thumbnail_image": "https://i.ibb.co/3Tyw2tR/wedding.jpg",
+        "detailed_image": "https://i.ibb.co/ctMH8tn/wed.jpg",
+        "price": "$25,000"
+    },
+    {
+        "id": 2,
+        "name": "Birthday Parties",
+        "short_description": "Celebrate another year of life!",
+        "detailed_description": "Birthday parties are a time to celebrate and have fun, whether it's a child's themed party or an adult gathering with friends. These events mark another trip around the sun, a chance to reflect on the past year's experiences, and an opportunity to look forward to the adventures ahead. They are moments of pure joy, where laughter and smiles take center stage. Children's birthday parties often feature colorful decorations, themed cakes, and games that bring out the giggles and excitement in little ones.",
+        "thumbnail_image": "https://i.ibb.co/W224B6G/bday.jpg",
+        "detailed_image": "https://i.ibb.co/CVntGPz/Birthday.jpg",
+        "price": "$5,000"
+    },
+    {
+        "id": 3,
+        "name": "Anniversaries",
+        "short_description": "Marking years of love and togetherness.",
+        "detailed_description": "Anniversaries are a special time for couples to reflect on their journey together and celebrate the enduring love they share. Whether it's a milestone anniversary or an annual tradition, these occasions provide an opportunity to reaffirm the commitment made on their wedding day. Each anniversary represents another year of shared experiences, challenges overcome, and cherished moments. It's a time to reminisce about the day they said \"I do\" and to look forward to the adventures that lie ahead. ",
+        "thumbnail_image": "https://i.ibb.co/99NBPHf/anniversery.jpg",
+        "detailed_image": "https://i.ibb.co/PMLSBxy/anniv.jpg",
+        "price": "$10,000"
+    },
+    {
+        "id": 4,
+        "name": "Engagement Parties",
+        "short_description": "Announcing the commitment to a lifetime together.",
+        "detailed_description": "Engagement parties are a prelude to the wedding, where friends and family gather to celebrate the couple's engagement. They are a joyful announcement of the commitment to spend a lifetime together, and they mark the beginning of the exciting journey toward marriage. These parties are an opportunity for the couple to share their happiness and excitement with loved ones. They often take place shortly after the engagement and can range from intimate gatherings to larger affairs, depending on the couple's preferences. Engagement parties are a time for toasts and well-wishes, as guests offer their congratulations to the newly engaged couple.",
+        "thumbnail_image": "https://i.ibb.co/ZhYNsD9/Engagement.jpg",
+        "detailed_image": "https://i.ibb.co/XYfTS6k/Engage.jpg",
+        "price": "$15,000"
+    },
+    {
+        "id": 5,
+        "name": "Retirement Parties",
+        "short_description": "Honoring a career well spent.",
+        "detailed_description": "Retirement parties are a time to celebrate the achievements of someone's career and wish them well in their retirement. They are moments of reflection, gratitude, and anticipation of the leisurely days ahead. Retirement marks the end of a professional journey, and it's an opportunity for the retiree to look back on their accomplishments and the impact they've had on their workplace and colleagues. It's a time for coworkers and friends to express their appreciation and offer their best wishes for a well-deserved retirement.",
+        "thumbnail_image": "https://i.ibb.co/RNHNnzf/Retirement.jpg",
+        "detailed_image": "https://i.ibb.co/fkrxPkd/Retire.jpg",
+        "price": "$2,000"
+    },
+    {
+        "id": 6,
+        "name": "Baby Shower",
+        "short_description": "Welcoming a new bundle of joy.",
+        "detailed_description": "Baby showers are a special occasion to celebrate the impending arrival of a baby and shower the parents-to-be with love and gifts. They are a time of excitement and anticipation, as family and friends come together to offer their support and best wishes to the growing family. Baby showers are often hosted by close friends or family members and can take place before or after the baby's birth. They provide an opportunity to celebrate the parents-to-be and share in their joy.",
+        "thumbnail_image": "https://i.ibb.co/G0kkPgS/baby-Shower.jpg",
+        "detailed_image": "https://i.ibb.co/y831ykZ/baby.jpg",
+        "price": "$1,500"
+    },
+    {
+        "id": 7,
+        "name": "Graduation Celebration",
+        "short_description": "Commencement into a new chapter of life.",
+        "detailed_description": "Graduation celebrations mark the end of an educational journey and the beginning of new opportunities. They are milestones in a person's life, signifying years of hard work, dedication, and growth. Graduations can occur at various levels, from preschool and high school to college and beyond, and each one is a moment of pride and accomplishment. Graduation ceremonies are often steeped in tradition, with graduates donning caps and gowns, marching to the strains and receiving their diplomas. These formal proceedings are a culmination of years of learning and are witnessed by proud family members and friends.",
+        "thumbnail_image": "https://i.ibb.co/WscYBMk/graduation.jpg",
+        "detailed_image": "https://i.ibb.co/BwNL2C9/graduate.jpg",
+        "price": "$3,000"
+    },
+    {
+        "id": 8,
+        "name": "Housewarming Party",
+        "short_description": "Welcoming friends and family to a new home.",
+        "detailed_description": "Housewarming parties are a warm and welcoming way to introduce loved ones to a new living space. They are celebrations of a fresh start, whether it's moving into a first home, a bigger space for a growing family, or a new city or neighborhood. Housewarming parties are an invitation for friends and family to step into the new chapter of the homeowner's life and share in their joy. The decorations and atmosphere of a housewarming party often reflect the style and personality of the homeowner. From cozy and rustic themes to modern and chic designs, the goal is to make guests feel comfortable and at home.",
+        "thumbnail_image": "https://i.ibb.co/hXfpwGz/housewarming.jpg",
+        "detailed_image": "https://i.ibb.co/L8ggP2m/house.jpg",
+        "price": "$1,000"
+    },
+    {
+        "id": 9,
+        "name": "Reunion Gathering",
+        "short_description": "Reconnecting with old friends and memories.",
+        "detailed_description": "Reunion gatherings are a chance for people to come together, reminisce, and catch up with friends and classmates from the past. They are moments of nostalgia and reconnection, where the shared bonds of history and friendship take center stage. Reunions can take many forms, from high school reunions that bring together classmates from years gone by to family reunions that unite generations under one roof. The atmosphere of a reunion is often filled with laughter, stories, and shared experiences. It's a time to catch up on life's twists and turns, celebrate achievements, and offer support during challenging times.",
+        "thumbnail_image": "https://i.ibb.co/z8fQyc8/reunion.jpg",
+        "detailed_image": "https://i.ibb.co/gRDw0Jm/reuni.jpg",
+        "price": "$2,000"
+    },
+    {
+        "id": 10,
+        "name": "Bridal Shower",
+        "short_description": "Honoring the bride-to-be before the big day.",
+        "detailed_description": "Bridal showers are a special pre-wedding celebration to shower the bride with gifts, love, and best wishes. They are moments of excitement and anticipation, where friends and family come together to support the bride as she prepares for her wedding day. Bridal showers are often hosted by close friends or family members and are an opportunity to pamper the bride and offer her advice and encouragement. The decorations and themes of bridal showers are often chosen to reflect the bride's personality and interests. From elegant tea parties to fun and festive gatherings, the goal is to create a memorable and enjoyable experience for all.",
+        "thumbnail_image": "https://i.ibb.co/7g2fgww/bridal-Shower.jpg",
+        "detailed_image": "https://i.ibb.co/Tbw19nP/bridal.jpg",
+        "price": "$1,500"
+    },
+    {
+        "id": 11,
+        "name": "Holiday Parties",
+        "short_description": "Spreading holiday cheer with friends and family.",
+        "detailed_description": "Holiday parties are festive gatherings to celebrate various holidays throughout the year. They are moments of joy, togetherness, and the spirit of giving. Holiday parties can take many forms, from Christmas gatherings with twinkling lights and carol singing to Fourth of July barbecues with fireworks and patriotic themes. Each holiday brings its own traditions and customs, and holiday parties offer an opportunity to embrace and share these cherished practices.",
+        "thumbnail_image": "https://i.ibb.co/ZWrXWHp/holidayparties.jpg",
+        "detailed_image": "https://i.ibb.co/2740hd7/holiday.jpg",
+        "price": "$3,000"
+    },
+    {
+        "id": 12,
+        "name": "Fundraising Gala",
+        "short_description": "Raising funds for a good cause in style.",
+        "detailed_description": "Fundraising galas are elegant events organized to support charitable causes and raise funds for important initiatives. They are occasions of glamour, philanthropy, and community engagement. Fundraising galas bring together individuals, organizations, and businesses to make a positive impact on society. These events often feature luxurious decorations and formal attire, creating an atmosphere of sophistication and generosity. The focus of a fundraising gala is to raise funds for a specific cause or organization. Guests are encouraged to donate, participate in auctions, or pledge support in various ways. The money raised often goes toward research, humanitarian efforts, educational programs, or other charitable endeavors.",
+        "thumbnail_image": "https://i.ibb.co/M5mR6Gw/fundraising.jpg",
+        "detailed_image": "https://i.ibb.co/VQmr8yk/fund.jpg",
+        "price": "$4,000"
+    }
+]
