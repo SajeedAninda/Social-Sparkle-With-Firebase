@@ -7,7 +7,7 @@ const Navbar = () => {
         <div className='bg-[#85D7A9]'>
             <div className='h-[15vh]  w-[90%] mx-auto flex justify-between items-center'>
                 <div>
-                    <img className='w-[120px]' src={logo} alt="Company Logo" />
+                    <Link to={"/"}><img className='w-[120px]' src={logo} alt="Company Logo" /></Link>
                 </div>
 
                 <div className='links text-white text-lg flex gap-8 items-center justify-between'>
