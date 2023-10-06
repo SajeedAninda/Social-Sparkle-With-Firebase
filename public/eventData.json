@@ -2,7 +2,7 @@
     {
         "id": 1,
         "name": "Weddings",
-        "short_description": "Celebrate the union of two souls.",
+        "short_description": "Celebrate the union of two souls together.",
         "detailed_description": "Weddings are a joyous occasion where two people come together in love and commitment, surrounded by family and friends. This significant event marks the beginning of a new chapter in the couple's life, one filled with shared dreams, aspirations, and a promise to stand by each other through thick and thin. It is a day when love takes center stage, and every detail, from the selection of the perfect venue to the choice of flowers and decor, is meticulously planned to create a magical atmosphere.",
         "thumbnail_image": "https://i.ibb.co/3Tyw2tR/wedding.jpg",
         "detailed_image": "https://i.ibb.co/ctMH8tn/wed.jpg",
@@ -11,10 +11,10 @@
     {
         "id": 2,
         "name": "Birthday Parties",
-        "short_description": "Celebrate another year of life!",
+        "short_description": "Celebrate another year of life with your beloved ones!",
         "detailed_description": "Birthday parties are a time to celebrate and have fun, whether it's a child's themed party or an adult gathering with friends. These events mark another trip around the sun, a chance to reflect on the past year's experiences, and an opportunity to look forward to the adventures ahead. They are moments of pure joy, where laughter and smiles take center stage. Children's birthday parties often feature colorful decorations, themed cakes, and games that bring out the giggles and excitement in little ones.",
-        "thumbnail_image": "https://i.ibb.co/W224B6G/bday.jpg",
-        "detailed_image": "https://i.ibb.co/CVntGPz/Birthday.jpg",
+        "thumbnail_image": "https://i.ibb.co/CVntGPz/Birthday.jpg",
+        "detailed_image": "https://i.ibb.co/W224B6G/bday.jpg",
         "price": "$5,000"
     },
     {
@@ -38,7 +38,7 @@
     {
         "id": 5,
         "name": "Retirement Parties",
-        "short_description": "Honoring a career well spent.",
+        "short_description": "Honoring a career well spent and retire with dignity",
         "detailed_description": "Retirement parties are a time to celebrate the achievements of someone's career and wish them well in their retirement. They are moments of reflection, gratitude, and anticipation of the leisurely days ahead. Retirement marks the end of a professional journey, and it's an opportunity for the retiree to look back on their accomplishments and the impact they've had on their workplace and colleagues. It's a time for coworkers and friends to express their appreciation and offer their best wishes for a well-deserved retirement.",
         "thumbnail_image": "https://i.ibb.co/RNHNnzf/Retirement.jpg",
         "detailed_image": "https://i.ibb.co/fkrxPkd/Retire.jpg",
@@ -47,7 +47,7 @@
     {
         "id": 6,
         "name": "Baby Shower",
-        "short_description": "Welcoming a new bundle of joy.",
+        "short_description": "Welcoming a new bundle of joy that will fill happiness in lives.",
         "detailed_description": "Baby showers are a special occasion to celebrate the impending arrival of a baby and shower the parents-to-be with love and gifts. They are a time of excitement and anticipation, as family and friends come together to offer their support and best wishes to the growing family. Baby showers are often hosted by close friends or family members and can take place before or after the baby's birth. They provide an opportunity to celebrate the parents-to-be and share in their joy.",
         "thumbnail_image": "https://i.ibb.co/G0kkPgS/baby-Shower.jpg",
         "detailed_image": "https://i.ibb.co/y831ykZ/baby.jpg",
