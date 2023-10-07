@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { AuthContext } from '../Authentication/AuthProvider';
 import Swal from 'sweetalert2';
 import { getAuth, updateProfile } from 'firebase/auth';
@@ -8,6 +8,7 @@ const auth = getAuth(app);
 import logo from "../../assets/Social_Sparkle.jpeg";
 
 const Register = () => {
+    let navigate = useNavigate();
     let { register } = useContext(AuthContext);
     let handleRegister = (e) => {
         e.preventDefault();
@@ -42,23 +43,26 @@ const Register = () => {
         register(email, password)
             .then((userCredential) => {
                 const user = userCredential.user;
-
-                Swal.fire(
-                    'Good job!',
-                    'Registration Succesfull!',
-                    'success'
-                )
                 updateProfile(auth.currentUser, {
                     displayName: name, photoURL: img
                 }).then(() => {
 
                 }).catch((error) => {
-
+                    console.log(error);
                 });
+                navigate("/");
                 console.log(user);
             })
             .catch((error) => {
-
+                const errorCode = error.code;
+                console.log(errorCode);
+                if (errorCode === "auth/email-already-in-use") {
+                    return Swal.fire({
+                        icon: 'error',
+                        title: 'Oops...',
+                        text: 'Email Already in Use!'
+                    })
+                }
             });
 
 
