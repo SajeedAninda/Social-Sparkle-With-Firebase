@@ -1,10 +1,11 @@
 import React, { useContext } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { AuthContext } from '../Authentication/AuthProvider';
 import Swal from 'sweetalert2';
 
 const Login = () => {
     let { login, googleLogin, githubLogin } = useContext(AuthContext);
+    let navigate = useNavigate();
 
     let handleLogin = (e) => {
         e.preventDefault();
@@ -14,6 +15,7 @@ const Login = () => {
             .then((userCredential) => {
                 const user = userCredential.user;
                 console.log(user);
+                navigate("/");
             })
             .catch((error) => {
                 const errorCode = error.code;
@@ -33,6 +35,7 @@ const Login = () => {
             .then((result) => {
                 const user = result.user;
                 console.log(user);
+                navigate("/");
             }).catch((error) => {
                 console.log(error);
             });
@@ -43,6 +46,7 @@ const Login = () => {
             .then((result) => {
                 const user = result.user;
                 console.log(user);
+                navigate("/");
             }).catch((error) => {
                 console.log(error);
             });
