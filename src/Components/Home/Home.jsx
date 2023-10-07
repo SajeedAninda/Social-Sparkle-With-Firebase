@@ -2,6 +2,7 @@ import React from 'react';
 import Banner from '../Banner/Banner';
 import Services from '../../Services/Services';
 import ChooseUs from '../AboutUs/ChooseUs';
+import Clients from '../Clients/Clients';
 
 const Home = () => {
     return (
@@ -9,6 +10,7 @@ const Home = () => {
             <Banner></Banner>
             <Services></Services>
             <ChooseUs></ChooseUs>
+            <Clients></Clients>
         </div>
     );
 };

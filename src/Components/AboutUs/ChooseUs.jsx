@@ -105,7 +105,7 @@ const ChooseUs = () => {
 
 
                                 <Link to={"/login"}
-                                    className="px-5 py-3 rounded-lg text-gray-100 bg-[#033430] hover:text-[#033430] hover:bg-white">
+                                    className="px-5 py-3 font-bold rounded-lg text-gray-100 bg-[#033430] hover:text-[#033430] hover:bg-white">
                                     Login to Learn more
                                 </Link>
                             </div>
