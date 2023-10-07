@@ -50,7 +50,7 @@ const Register = () => {
                 }).catch((error) => {
                     console.log(error);
                 });
-                navigate("/");
+                navigate(location?.state ? location.state : '/');
                 console.log(user);
             })
             .catch((error) => {

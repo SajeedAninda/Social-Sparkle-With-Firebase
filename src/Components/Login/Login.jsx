@@ -1,11 +1,13 @@
 import React, { useContext } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { AuthContext } from '../Authentication/AuthProvider';
 import Swal from 'sweetalert2';
 
 const Login = () => {
     let { login, googleLogin, githubLogin } = useContext(AuthContext);
     let navigate = useNavigate();
+    let location = useLocation();
+    console.log(location);
 
     let handleLogin = (e) => {
         e.preventDefault();
@@ -15,7 +17,7 @@ const Login = () => {
             .then((userCredential) => {
                 const user = userCredential.user;
                 console.log(user);
-                navigate("/");
+                navigate(location?.state ? location.state : '/');
             })
             .catch((error) => {
                 const errorCode = error.code;
@@ -35,7 +37,7 @@ const Login = () => {
             .then((result) => {
                 const user = result.user;
                 console.log(user);
-                navigate("/");
+                navigate(location?.state ? location.state : '/');
             }).catch((error) => {
                 console.log(error);
             });
@@ -46,7 +48,7 @@ const Login = () => {
             .then((result) => {
                 const user = result.user;
                 console.log(user);
-                navigate("/");
+                navigate(location?.state ? location.state : '/');
             }).catch((error) => {
                 console.log(error);
             });
