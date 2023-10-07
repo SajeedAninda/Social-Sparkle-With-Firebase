@@ -1,0 +1,4 @@
+.chooseBg{
+    background: rgb(242, 251, 246);
+    background: linear-gradient(240deg, rgb(235, 255, 243) 0%, rgb(122, 230, 172) 100%);
+}
