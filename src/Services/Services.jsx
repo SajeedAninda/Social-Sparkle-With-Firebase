@@ -10,7 +10,7 @@ const Services = () => {
     }, [])
 
     return (
-        <div className='my-12'>
+        <div className='py-12'>
             <div className='text-center space-y-2 mb-6'>
                 <h1 className='text-[#033430] font-bold text-5xl'>Our Services</h1>
                 <h3 className='text-[#033430] font-semibold text-xl'>What We Offer</h3>

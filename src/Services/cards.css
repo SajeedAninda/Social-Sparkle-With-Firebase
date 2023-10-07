@@ -2,3 +2,8 @@
     background: rgb(242, 251, 246);
     background: linear-gradient(240deg, rgba(242, 251, 246, 1) 0%, rgb(123, 192, 154) 100%);
 }
+
+.bg{
+    background: rgb(242, 251, 246);
+    background: linear-gradient(240deg, rgb(235, 255, 243) 0%, rgb(122, 230, 172) 100%);
+}
