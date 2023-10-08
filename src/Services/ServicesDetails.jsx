@@ -12,9 +12,9 @@ const ServicesDetails = () => {
     console.log(id);
     return (
         <div className='bg'>
-            <div className='w-[90%] mx-auto py-20 flex items-center '>
+            <div className='w-[90%] mx-auto py-20 flex flex-col lg:flex-row gap-6 lg:gap-0 items-center '>
                 <div>
-                    <img src={detailed_image} className='w-[85%] rounded-xl shadow-2xl' alt="" />
+                    <img src={detailed_image} className='w-full lg:w-[85%] rounded-xl shadow-2xl' alt="" />
                 </div>
                 <div className='space-y-8'>
                     <h5 className="mb-2 text-4xl font-bold tracking-tight text-[#033430]">{name}</h5>
