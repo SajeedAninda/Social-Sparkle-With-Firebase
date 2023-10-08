@@ -11,7 +11,7 @@ const Planners = () => {
     return (
         <div className="mb-8">
             <dh-component>
-                <div className="container flex justify-center mx-auto pt-8">
+                <div className="w-[90%] flex justify-center mx-auto pt-8">
                     <div>
                         <p className="text-[#033430] text-lg text-center font-normal pb-3">EVENT PLANNERS</p>
                         <h1 className="xl:text-4xl text-3xl text-center text-[#033430] font-extrabold pb-6 sm:w-4/6 w-5/6 mx-auto">The Talented People Behind the Scenes of the Organization</h1>
