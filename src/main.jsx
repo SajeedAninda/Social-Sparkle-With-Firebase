@@ -14,10 +14,12 @@ import AuthProvider from './Components/Authentication/AuthProvider';
 import PrivateRoute from './Components/Authentication/PrivateRoute';
 import Planners from './Components/Planners/Planners';
 import Blogs from './Components/Blogs/Blogs';
+import ErrorRoute from './Components/Error/ErrorRoute';
 
 const router = createBrowserRouter([
   {
     path: "/",
+    errorElement: <ErrorRoute></ErrorRoute>,
     element: <App></App>,
     children: [
       {
