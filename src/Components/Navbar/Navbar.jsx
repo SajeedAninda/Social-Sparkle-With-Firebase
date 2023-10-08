@@ -16,7 +16,7 @@ const Navbar = () => {
     }
     return (
         <div className='bg-[#85D7A9]'>
-            <div className='h-[30vh] md:h-[15vh] w-[90%] mx-auto flex flex-col md:flex-row justify-around md:justify-between items-center'>
+            <div className='h-[30vh] md:h-[20vh] lg:-[15vh] w-[90%] mx-auto flex flex-col md:flex-row justify-around md:justify-between items-center'>
                 <div>
                     <Link to={"/"}><img className=' w-[70px] md:w-[90px] lgw-[120px]' src={logo} alt="Company Logo" /></Link>
                 </div>

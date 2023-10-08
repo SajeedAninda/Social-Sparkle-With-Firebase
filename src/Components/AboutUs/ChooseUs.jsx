@@ -17,8 +17,8 @@ const ChooseUs = () => {
                 <section className="flex items-center pb-10 font-poppins">
                     <div className="justify-center flex-1 max-w-6xl px-4 py-4 mx-auto lg:py-6 md:px-6">
                         <div className="flex flex-wrap items-center">
-                            <div className="w-full px-4 mb-10 xl:w-1/2 lg:mb-8">
-                                <div className="flex gap-6 md:gap-0 flex-wrap">
+                            <div className="w-full px-4 mb-10 xl:w-1/2 lg:mb-8" data-aos="fade-right">
+                                <div className="flex gap-6 md:gap-0 flex-wrap" >
                                     <div className="w-full px-4 md:w-1/2">
 
                                         <img src={companyImg} alt=""
@@ -34,7 +34,8 @@ const ChooseUs = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="w-full px-4 mb-10 xl:w-1/2 lg:mb-8">
+
+                            <div className="w-full px-4 mb-10 xl:w-1/2 lg:mb-8" data-aos="fade-left">
                                 <span className="text-[#033430] font-bold text-2xl">Why choose us?</span>
                                 <h2 className="mt-2 mb-4 text-[#033430] font-medium text-lg">
                                     With years of experience in the industry, our team of seasoned professionals possesses the knowledge and expertise to turn your ideas into reality.

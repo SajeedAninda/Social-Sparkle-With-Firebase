@@ -18,7 +18,7 @@ const Clients = () => {
                     </div>
                     <div class="-mx-3 md:flex items-start">
                         <div class="px-3 md:w-1/3">
-                            <div class="w-full mx-auto rounded-lg clientsBg border shadow-sm p-5 text-[#033430] font-light mb-6">
+                            <div class="w-full mx-auto rounded-lg clientsBg border shadow-sm p-5 text-[#033430] font-light mb-6" data-aos="flip-up">
                                 <div class="w-full flex mb-4 items-center">
                                     <div class="overflow-hidden rounded-full w-10 h-10 bg-gray-50 border shadow-sm">
                                         <img src="https://i.pravatar.cc/100?img=1" alt="" />
@@ -31,7 +31,7 @@ const Clients = () => {
                                     <p class="text-sm leading-tight"><span class="text-lg leading-none italic font-bold text-gray-400 mr-1">"</span>I recently had the pleasure of working with this Social Sparkle to plan my daughter's sweet sixteen party, and I couldn't be happier with the results. From the moment we started planning until the last guest left the party, the team at this organization was exceptional. The attention to detail was impeccable. <span class="text-lg leading-none italic font-bold text-gray-400 ml-1">"</span></p>
                                 </div>
                             </div>
-                            <div class="w-full mx-auto rounded-lg clientsBg border shadow-sm p-5 text-[#033430] font-light mb-6">
+                            <div class="w-full mx-auto rounded-lg clientsBg border shadow-sm p-5 text-[#033430] font-light mb-6" data-aos="flip-up">
                                 <div class="w-full flex mb-4 items-center">
                                     <div class="overflow-hidden rounded-full w-10 h-10 bg-gray-50 border shadow-sm">
                                         <img src="https://i.pravatar.cc/100?img=2" alt="" />
@@ -47,7 +47,7 @@ const Clients = () => {
                             </div>
                         </div>
                         <div class="px-3 md:w-1/3">
-                            <div class="w-full mx-auto rounded-lg clientsBg border shadow-sm p-5 text-[#033430] font-light mb-6">
+                            <div class="w-full mx-auto rounded-lg clientsBg border shadow-sm p-5 text-[#033430] font-light mb-6" data-aos="flip-up">
                                 <div class="w-full flex mb-4 items-center">
                                     <div class="overflow-hidden rounded-full w-10 h-10 bg-gray-50 border shadow-sm">
                                         <img src="https://i.pravatar.cc/100?img=3" alt="" />
@@ -61,7 +61,7 @@ const Clients = () => {
                                         <span class="text-lg leading-none italic font-bold text-gray-400 mr-1">"</span><span class="text-lg leading-none italic font-bold text-gray-400 ml-1">"</span></p>
                                 </div>
                             </div>
-                            <div class="w-full mx-auto rounded-lg clientsBg border shadow-sm p-5 text-[#033430] font-light mb-6">
+                            <div class="w-full mx-auto rounded-lg clientsBg border shadow-sm p-5 text-[#033430] font-light mb-6" data-aos="flip-up">
                                 <div class="w-full flex mb-4 items-center">
                                     <div class="overflow-hidden rounded-full w-10 h-10 bg-gray-50 border shadow-sm">
                                         <img src="https://i.pravatar.cc/100?img=4" alt="" />
@@ -78,7 +78,7 @@ const Clients = () => {
                             </div>
                         </div>
                         <div class="px-3 md:w-1/3">
-                            <div class="w-full mx-auto rounded-lg clientsBg border shadow-sm p-5 text-[#033430] font-light mb-6">
+                            <div class="w-full mx-auto rounded-lg clientsBg border shadow-sm p-5 text-[#033430] font-light mb-6" data-aos="flip-up">
                                 <div class="w-full flex mb-4 items-center">
                                     <div class="overflow-hidden rounded-full w-10 h-10 bg-gray-50 border shadow-sm">
                                         <img src="https://i.pravatar.cc/100?img=5" alt="" />
@@ -91,7 +91,7 @@ const Clients = () => {
                                     <p class="text-sm leading-tight"><span class="text-lg leading-none italic font-bold text-gray-400 mr-1">"</span>If you're looking for an event organization that delivers exceptional results and makes the entire process stress-free, I highly recommend this organization. They are true professionals who are passionate about what they do, and it shows in the quality of their work. Our guests were thoroughly impressed, and the event was a resounding success.<span class="text-lg leading-none italic font-bold text-gray-400 ml-1">"</span></p>
                                 </div>
                             </div>
-                            <div class="w-full mx-auto rounded-lg clientsBg border shadow-sm p-5 text-[#033430] font-light mb-6">
+                            <div class="w-full mx-auto rounded-lg clientsBg border shadow-sm p-5 text-[#033430] font-light mb-6" data-aos="flip-up">
                                 <div class="w-full flex mb-4 items-center">
                                     <div class="overflow-hidden rounded-full w-10 h-10 bg-gray-50 border shadow-sm">
                                         <img src="https://i.pravatar.cc/100?img=6" alt="" />

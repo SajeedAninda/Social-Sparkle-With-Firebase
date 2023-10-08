@@ -16,7 +16,8 @@ const Services = () => {
                 <h3 className='text-[#033430] font-semibold text-xl'>What We Offer</h3>
             </div>
 
-            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 w-[90%] mx-auto'>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 w-[90%] mx-auto' data-aos="fade-up"
+                data-aos-anchor-placement="top-bottom">
                 {
                     services.map(service => <ServiceCards key={service.id} service={service}></ServiceCards>)
                 }
