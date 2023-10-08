@@ -3,7 +3,7 @@ import "./Clients.css"
 const Clients = () => {
     return (
         <div class="min-w-screen min-h-screen flex items-center justify-center">
-            <div class="w-full bg-white border-t border-b shadow-sm px-5 md:py-12">
+            <div class="w-full bg-white border-t border-b shadow-sm px-5 py-12">
                 <div class="w-full max-w-6xl mx-auto">
                     <div class="text-center max-w-xl mx-auto">
                         <h1 class="text-[#033430] font-bold text-5xl">What people <br />are saying.</h1>

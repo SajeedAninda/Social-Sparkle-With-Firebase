@@ -13,7 +13,7 @@ const Banner = () => {
                     <div className="absolute w-full h-full bg-[#85D7A9] opacity-60"></div>
                     <div className="hero-content text-center text-neutral-content lg:-mt-20">
                         <div className="">
-                            <h1 className="mb-5 text-white text-3xl lg:text-7xl font-extrabold">Where Every Event <br /> Finds Its Digital Stage <br /> Crafted with Care</h1>
+                            <h1 className="mb-5 text-white text-2xl md:text-5xl lg:text-7xl font-extrabold">Where Every Event <br /> Finds Its Digital Stage <br /> Crafted with Care</h1>
                         </div>
                     </div>
                 </div>
@@ -30,7 +30,7 @@ const Banner = () => {
                     <div className="absolute w-full h-full bg-[#85D7A9] opacity-60"></div>
                     <div className="hero-content text-center text-neutral-content lg:-mt-20">
                         <div className="">
-                            <h1 className="mb-5 text-white text-3xl lg:text-7xl font-extrabold">Turning Ideas <br /> Into <br /> Unforgettable Events</h1>
+                            <h1 className="mb-5 text-white text-2xl md:text-5xl lg:text-7xl font-extrabold">Turning Ideas <br /> Into <br /> Unforgettable Events</h1>
                         </div>
                     </div>
                 </div>
@@ -47,7 +47,7 @@ const Banner = () => {
                     <div className="absolute w-full h-full bg-[#85D7A9] opacity-60"></div>
                     <div className="hero-content text-center text-neutral-content lg:-mt-20">
                         <div className="">
-                            <h1 className="mb-5 text-white text-3xl lg:text-7xl font-extrabold">Your Events, Our Expertise <br /> Crafting Unforgettable <br /> Memories Online.</h1>
+                            <h1 className="mb-5 text-white text-2xl md:text-5xl lg:text-7xl font-extrabold">Your Events, Our Expertise <br /> Crafting Unforgettable <br /> Memories Online.</h1>
                         </div>
                     </div>
                 </div>
@@ -65,7 +65,7 @@ const Banner = () => {
                     <div className="absolute w-full h-full bg-[#85D7A9] opacity-60"></div>
                     <div className="hero-content text-center text-neutral-content lg:-mt-20">
                         <div className="">
-                            <h1 className="mb-5 text-white text-3xl lg:text-7xl font-extrabold">Empowering <br /> Social Events Digitally <br /> So You Can Focus <br /> on What Matters</h1>
+                            <h1 className="mb-5 text-white text-2xl md:text-5xl lg:text-7xl font-extrabold">Empowering <br /> Social Events Digitally <br /> So You Can Focus <br /> on What Matters</h1>
                         </div>
                     </div>
                 </div>

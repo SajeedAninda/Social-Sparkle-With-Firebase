@@ -11,14 +11,14 @@ const ChooseUs = () => {
         <div className=' chooseBg'>
             <div className='w-[90%] mx-auto'>
                 <div className='text-center space-y-4 pt-10'>
-                    <h1 className='text-[#033430] font-bold text-5xl'>About Us</h1>
+                    <h1 className='text-[#033430] font-bold text-4xl  md:text-5xl'>About Us</h1>
                     <h3 className='text-[#033430] font-semibold text-xl'>At <span className='font-bold underline'>Social Spark</span>, we understand that every social event is a unique and special occasion, filled with dreams, expectations, and emotions. That's why we're dedicated to being your trusted partner in creating unforgettable moments. When you choose us, you're not just selecting an event management company; you're selecting an experience tailored to your vision, needs, and desires.</h3>
                 </div>
                 <section className="flex items-center pb-10 font-poppins">
                     <div className="justify-center flex-1 max-w-6xl px-4 py-4 mx-auto lg:py-6 md:px-6">
                         <div className="flex flex-wrap items-center">
                             <div className="w-full px-4 mb-10 xl:w-1/2 lg:mb-8">
-                                <div className="flex flex-wrap">
+                                <div className="flex gap-6 md:gap-0 flex-wrap">
                                     <div className="w-full px-4 md:w-1/2">
 
                                         <img src={companyImg} alt=""
