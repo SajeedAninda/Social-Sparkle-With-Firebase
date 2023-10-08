@@ -54,19 +54,6 @@ const Navbar = () => {
                 <div>
                     {
                         signedInUser ?
-                            // <div className='flex flex-col items-center'>
-                            //     <div className="dropdown dropdown-end">
-                            //         <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
-                            //             <div className="w-12 rounded-full">
-                            //                 <img src={`${signedInUser.photoURL}`} />
-                            //             </div>
-                            //         </label>
-                            //         <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-                            //             <li><button onClick={handleLogout}>Logout</button></li>
-                            //         </ul>
-                            //     </div>
-                            //     <p className='text-white font-bold'>{signedInUser.displayName}</p>
-                            // </div>
                             <div className='flex flex-col justify-center items-center'>
                                 <div className='flex items-center gap-2'>
                                     <img className='w-[40px] rounded-full' src={`${signedInUser.photoURL}`} />
