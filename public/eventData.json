@@ -41,7 +41,7 @@
         "short_description": "Honoring a career well spent and retire with dignity",
         "detailed_description": "Retirement parties are a time to celebrate the achievements of someone's career and wish them well in their retirement. They are moments of reflection, gratitude, and anticipation of the leisurely days ahead. Retirement marks the end of a professional journey, and it's an opportunity for the retiree to look back on their accomplishments and the impact they've had on their workplace and colleagues. It's a time for coworkers and friends to express their appreciation and offer their best wishes for a well-deserved retirement.",
         "thumbnail_image": "https://i.ibb.co/Vgm7rHb/Retirement.jpg",
-        "detailed_image": "https://i.ibb.co/4dSDMqy/Retire.jpg",
+        "detailed_image": "https://i.ibb.co/d57cvwB/retire.jpg",
         "price": "$2,000"
     },
     {
@@ -100,11 +100,11 @@
     },
     {
         "id": 12,
-        "name": "Fundraising Gala",
-        "short_description": "Raising funds for a good cause in style.",
-        "detailed_description": "Fundraising galas are elegant events organized to support charitable causes and raise funds for important initiatives. They are occasions of glamour, philanthropy, and community engagement. Fundraising galas bring together individuals, organizations, and businesses to make a positive impact on society. These events often feature luxurious decorations and formal attire, creating an atmosphere of sophistication and generosity. The focus of a fundraising gala is to raise funds for a specific cause or organization. Guests are encouraged to donate, participate in auctions, or pledge support in various ways. The money raised often goes toward research, humanitarian efforts, educational programs, or other charitable endeavors.",
-        "thumbnail_image": "https://i.ibb.co/YX4YQL2/fundraising.jpg",
-        "detailed_image": "https://i.ibb.co/P6wQF4T/reuni.jpg",
-        "price": "$4,000"
+        "name": "Costume Party",
+        "short_description": "Dress up, let loose, and make memories at Costume Party!",
+        "detailed_description": "Celebrate in style and let your imagination run wild at our Costume Party! Get ready to don your most creative, whimsical, or downright hilarious costumes as we come together for a night of laughter, mystery, and fun. Whether you transform into your favorite movie character, historical figure, or something entirely unique, it's a chance to showcase your alter ego and enjoy an evening of enchanting surprises. Join us for a night of costumes, camaraderie, and a dash of the extraordinary. Whether you choose to become a hero, a villain, a mythical creature, or a character from your favorite book, movie, or era, the possibilities are endless. Express your inner artist, embrace your alter ego, and let your imagination run free! ",
+        "thumbnail_image": "https://i.ibb.co/pLySYpp/costume.jpg",
+        "detailed_image": "https://i.ibb.co/dL26hmM/costume-Party.jpg",
+        "price": "$1,000"
     }
 ]

@@ -167,11 +167,11 @@ const Blogs = () => {
                                         href="javascript:void(0)"
                                         className="text-[#033430] hover:text-[#85D7A9] mb-4 inline-block text-xl font-semibold sm:text-2xl lg:text-xl xl:text-2xl"
                                     >
-                                        An Evening of Impact: Fundraising Galas Unveiled
+                                        New Nest: A Housewarming Party to Remember
                                     </a>
                                 </h3>
                                 <p className="text-body-color text-base">
-                                    We peel back the curtain on the world of fundraising galas, where glamour meets philanthropy. Explore inspiring success stories, gain insights into event planning, and learn how these extraordinary evenings create lasting change. Join us as we shine a spotlight on the power of fundraising through unforgettable galas that make a real difference.
+                                    From choosing the perfect invitations to setting the ambiance, we'll walk you through each step of the process to ensure your guests feel welcomed and your new home gets the attention it deserves. Join us as we explore ideas and expert tips for hosting a housewarming party that reflects your unique style and leaves everyone talking about the incredible time they had.
                                 </p>
                             </div>
                         </div>

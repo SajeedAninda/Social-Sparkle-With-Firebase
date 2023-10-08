@@ -46,7 +46,11 @@ const Register = () => {
                 updateProfile(auth.currentUser, {
                     displayName: name, photoURL: img
                 }).then(() => {
-
+                    Swal.fire(
+                        'Good job!',
+                        'Registration Successful!',
+                        'success'
+                    )
                 }).catch((error) => {
                     console.log(error);
                 });

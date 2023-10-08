@@ -17,6 +17,11 @@ const Login = () => {
             .then((userCredential) => {
                 const user = userCredential.user;
                 console.log(user);
+                Swal.fire(
+                    'Good job!',
+                    'Login Successful!',
+                    'success'
+                )
                 navigate(location?.state ? location.state : '/');
             })
             .catch((error) => {
@@ -37,6 +42,11 @@ const Login = () => {
             .then((result) => {
                 const user = result.user;
                 console.log(user);
+                Swal.fire(
+                    'Good job!',
+                    'Login Successful!',
+                    'success'
+                )
                 navigate(location?.state ? location.state : '/');
             }).catch((error) => {
                 console.log(error);
@@ -48,6 +58,11 @@ const Login = () => {
             .then((result) => {
                 const user = result.user;
                 console.log(user);
+                Swal.fire(
+                    'Good job!',
+                    'Login Successful!',
+                    'success'
+                )
                 navigate(location?.state ? location.state : '/');
             }).catch((error) => {
                 console.log(error);
