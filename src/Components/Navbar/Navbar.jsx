@@ -32,12 +32,12 @@ const Navbar = () => {
                     </NavLink>
 
                     <NavLink
-                        to={"/purchasedEvents"}
+                        to={"/planners"}
                         className={({ isActive, isPending }) =>
                             isPending ? "pending" : isActive ? "underline font-bold" : ""
                         }
                     >
-                        Purchased Events
+                        Event Planners
                     </NavLink>
 
                     <NavLink
