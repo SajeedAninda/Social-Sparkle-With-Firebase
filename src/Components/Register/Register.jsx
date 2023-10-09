@@ -9,7 +9,7 @@ import logo from "../../assets/Social_Sparkle.jpeg";
 
 const Register = () => {
     let navigate = useNavigate();
-    let { register } = useContext(AuthContext);
+    let { register, logOut } = useContext(AuthContext);
     let handleRegister = (e) => {
         e.preventDefault();
         let email = e.target.email.value;
@@ -46,15 +46,21 @@ const Register = () => {
                 updateProfile(auth.currentUser, {
                     displayName: name, photoURL: img
                 }).then(() => {
+                    logOut()
+                        .then(() => {
+                            console.log("Log Out Succesfull");
+                        }).catch((error) => {
+                            console.log(error);
+                        });
                     Swal.fire(
-                        'Good job!',
                         'Registration Successful!',
+                        'Please Login Now with Email & Password',
                         'success'
                     )
                 }).catch((error) => {
                     console.log(error);
                 });
-                navigate(location?.state ? location.state : '/');
+                navigate('/login');
                 console.log(user);
             })
             .catch((error) => {
