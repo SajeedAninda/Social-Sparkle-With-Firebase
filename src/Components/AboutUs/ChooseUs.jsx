@@ -1,12 +1,14 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import "./choose.css";
 import about1 from "../../assets/about1.jpg";
 import about2 from "../../assets/about2.jpg";
 import about3 from "../../assets/about3.jpg";
 import companyImg from "../../assets/Social_Sparkle.jpeg"
 import { Link } from 'react-router-dom';
+import { AuthContext } from '../Authentication/AuthProvider';
 
 const ChooseUs = () => {
+    let { signedInUser } = useContext(AuthContext);
     return (
         <div className=' chooseBg'>
             <div className='w-[90%] mx-auto'>
@@ -105,10 +107,12 @@ const ChooseUs = () => {
                                 </ul>
 
 
-                                <Link to={"/login"}
-                                    className="px-5 py-3 font-bold rounded-lg text-gray-100 bg-[#033430] hover:text-[#033430] hover:bg-white">
-                                    Login to Learn more
-                                </Link>
+                                {
+                                    !signedInUser && <Link to={"/login"}
+                                        className="px-5 py-3 font-bold rounded-lg text-gray-100 bg-[#033430] hover:text-[#033430] hover:bg-white">
+                                        Login to Learn more
+                                    </Link>
+                                }
                             </div>
                         </div>
                     </div>
