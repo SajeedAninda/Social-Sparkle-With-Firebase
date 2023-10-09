@@ -21,10 +21,10 @@ const Footer = () => {
                         <a href="#" className="mr-4 hover:underline md:mr-6">Premium</a>
                     </li>
                     <li>
-                        <a href="#" className="mr-4 hover:underline md:mr-6 ">Campaigns</a>
+                        <Link to={"/planners"} className="mr-4 hover:underline md:mr-6 ">Event Planners</Link>
                     </li>
                     <li>
-                        <a href="#" className="mr-4 hover:underline md:mr-6">Blog</a>
+                        <Link to={"/blogs"} className="mr-4 hover:underline md:mr-6">Blogs</Link>
                     </li>
                     <li>
                         <a href="#" className="mr-4 hover:underline md:mr-6">Affiliate Program</a>
