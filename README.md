@@ -19,4 +19,3 @@ Social Sparkle is a complete event management firm that specializes in providing
 
 Live Link: https://social-sparkle-sajeed.netlify.app/
 
-
